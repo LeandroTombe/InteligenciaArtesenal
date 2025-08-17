@@ -1,0 +1,32 @@
+# Entorno virtual de Python
+venv/
+
+# Archivos de configuración de VSCode
+.vscode/
+
+# Archivos temporales y de sistema
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+.DS_Store
+Thumbs.db
+
+# Archivos de Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Archivos de entorno
+.env
+.env.*
+
+# Archivos de logs
+*.log
+
+# Archivos de bases de datos temporales
+*.sqlite3
+
+# Archivos de paquetes
+*.egg-info/
+dist/
+build/
