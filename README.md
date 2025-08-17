@@ -56,3 +56,13 @@ pip install --upgrade -r requirements.txt
 ```powershell
 deactivate
 ```
+
+## Ejecutar Jupyter Notebook
+
+Para iniciar Jupyter Notebook y trabajar con tus notebooks, asegúrate de tener el entorno virtual activado y ejecuta:
+
+```powershell
+jupyter notebook
+```
+
+Esto abrirá una ventana en tu navegador donde podrás crear y editar notebooks de Python.
