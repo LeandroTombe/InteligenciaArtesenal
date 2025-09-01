@@ -57,7 +57,27 @@ pip install --upgrade -r requirements.txt
 deactivate
 ```
 
-## 🚀 Ejecutar Jupyter Notebook
+## � Conjunto de Datos
+
+### US Cars Dataset
+
+**Descripción:** El conjunto de datos incluye información de autos usados y "limpios" (sin daños) a la venta en Estados Unidos. Según las referencias, abarca datos de 28 marcas diferentes y contiene 12 atributos por vehículo. Entre las características se incluyen la marca, modelo, año, color, precio de venta, número de identificación vehicular (VIN), kilometraje, ubicación (estado y ciudad), estado del título, número de lote y condición del vehículo. En total el dataset registra 2.499 vehículos en venta.
+
+**Etiquetas (tags):** Automóviles y vehículos. 
+
+**Licencia:** No se especifica una licencia estándar.
+
+**Fecha de publicación y última actualización:** El dataset fue publicado en 2020. 
+
+**Autor/equipo:** Doaa Alsenani.
+
+
+**Archivos incluidos:**
+- `USA_cars_datasets.csv` — Formato CSV (tamaño aproximado: 284 KB según la página de Kaggle).
+
+**Fuentes:** Información obtenida de referencias relacionadas con el dataset de Kaggle, que describen su contenido, atributos y metadatos.
+
+## �🚀 Ejecutar Jupyter Notebook
 
 Para iniciar Jupyter Notebook y trabajar con tus notebooks, asegúrate de tener el entorno virtual activado y ejecuta:
 
