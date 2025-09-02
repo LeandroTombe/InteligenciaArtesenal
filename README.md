@@ -18,9 +18,10 @@ Para mantener las dependencias ordenadas, se recomienda crear y activar un entor
 
 ### 🪟 Windows (PowerShell)
 
-````powershell
+```powershell
 python -m venv venv
 .\venv\Scripts\Activate.ps1
+```
 
 ### 🐧 Linux / 🍏 macOS
 
@@ -105,4 +106,3 @@ Al ejecutar este comando se abrirá el navegador y podrás trabajar con los note
 ```
 
 ---
-````
