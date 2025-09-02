@@ -1,19 +1,19 @@
 ````markdown
 # 🔬 Proyecto de Ciencias de Datos
 
-Este repositorio contiene el trabajo práctico de **Ciencias de Datos**, con el objetivo de aplicar técnicas de carga, limpieza, análisis y visualización de datos utilizando **Python** y **Jupyter Notebooks**.
+Este repositorio contiene el trabajo práctico de **Ciencias de Datos**, cuyo objetivo es aplicar técnicas de **carga, limpieza, análisis y visualización de datos** utilizando **Python** y **Jupyter Notebooks**.
 
 ---
 
 ## 📋 Requisitos previos
 
-- **Python 3.9+** instalado (se recomienda usar 3.11 para mejor compatibilidad).
+- **Python 3.9+** instalado (se recomienda 3.11 para mayor compatibilidad).
 - `pip` actualizado.
 - Git instalado para clonar y gestionar el repositorio.
 
 ---
 
-## ⚙️ Entorno Virtual
+## ⚙️ Configuración del entorno virtual
 
 Para mantener las dependencias ordenadas, se recomienda crear y activar un entorno virtual.
 
@@ -79,7 +79,7 @@ deactivate
 
 ### **US Cars Dataset**
 
-- **Descripción:** Incluye información de autos usados y "limpios" (sin daños) en venta en EE.UU.
+- **Descripción:** Información de autos usados y "limpios" (sin daños) en venta en EE.UU.
 - **Registros:** 2.499 vehículos.
 - **Columnas:** 12 atributos (marca, modelo, año, color, precio, VIN, kilometraje, ubicación, estado del título, lote, condición, etc.).
 - **Etiquetas:** Automóviles y vehículos.
@@ -89,9 +89,9 @@ deactivate
 - **Autor:** Doaa Alsenani.
 - **Licencia:** No especificada.
 
-**Archivos incluidos:**
+**Archivo incluido:**
 
-- `USA_cars_datasets.csv` — archivo en formato CSV.
+- `datasets/USA_cars_datasets.csv`
 
 ---
 
@@ -111,7 +111,7 @@ deactivate
 
 ## 📚 Estructura del Repositorio
 
-```
+```bash
 .
 ├── datasets/
 │   └── USA_cars_datasets.csv    # Dataset principal
