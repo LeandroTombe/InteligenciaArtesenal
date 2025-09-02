@@ -1,4 +1,4 @@
-El objetivo es aplicar técnicas de **carga, exploración, limpieza y análisis** de datasets utilizando **Python**, **pandas** y **Jupyter Notebooks**.  
+El objetivo es aplicar técnicas de **Carga, almacenamiento y los diferentes formatos** de datasets utilizando **Python**, **pandas** y **Jupyter Notebooks**.  
 
 ---
 
