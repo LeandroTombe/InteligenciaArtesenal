@@ -1,11 +1,22 @@
-# 🔬 Proyecto de Ciencias de Datos
+El objetivo es aplicar técnicas de **carga, exploración, limpieza y análisis** de datasets utilizando **Python**, **pandas** y **Jupyter Notebooks**.  
 
-Este proyecto utiliza un entorno virtual de Python para gestionar las dependencias.
+---
+
+## 📋 Requisitos previos
+
+- **Python 3.9+** (se recomienda Python 3.11 para compatibilidad total)
+- `pip` actualizado
+- Git (opcional, para clonar el repositorio)
+
+---
 
 ## 📋 Requisitos previos
 - Python 3.x instalado
 
-## ⚙️ Crear y activar el entorno virtual
+## ⚙️ Configuración del entorno virtual
+
+Se emplea un entorno virtual para aislar las dependencias del proyecto y garantizar la reproducibilidad.
+
 
 ### 🪟 Windows (PowerShell)
 ```powershell
@@ -57,27 +68,9 @@ pip install --upgrade -r requirements.txt
 deactivate
 ```
 
-## � Conjunto de Datos
-
-### US Cars Dataset
-
-**Descripción:** El conjunto de datos incluye información de autos usados y "limpios" (sin daños) a la venta en Estados Unidos. Según las referencias, abarca datos de 28 marcas diferentes y contiene 12 atributos por vehículo. Entre las características se incluyen la marca, modelo, año, color, precio de venta, número de identificación vehicular (VIN), kilometraje, ubicación (estado y ciudad), estado del título, número de lote y condición del vehículo. En total el dataset registra 2.499 vehículos en venta.
-
-**Etiquetas (tags):** Automóviles y vehículos. 
-
-**Licencia:** No se especifica una licencia estándar.
-
-**Fecha de publicación y última actualización:** El dataset fue publicado en 2020. 
-
-**Autor/equipo:** Doaa Alsenani.
 
 
-**Archivos incluidos:**
-- `USA_cars_datasets.csv` — Formato CSV (tamaño aproximado: 284 KB según la página de Kaggle).
-
-**Fuentes:** Información obtenida de referencias relacionadas con el dataset de Kaggle, que describen su contenido, atributos y metadatos.
-
-## �🚀 Ejecutar Jupyter Notebook
+## 🚀 Ejecutar Jupyter Notebook
 
 Para iniciar Jupyter Notebook y trabajar con tus notebooks, asegúrate de tener el entorno virtual activado y ejecuta:
 
@@ -86,3 +79,41 @@ jupyter notebook
 ```
 
 Esto abrirá una ventana en tu navegador donde podrás crear y editar notebooks
+
+
+
+## 📊 Conjuntos de Datos
+
+### 1. US Cars Dataset
+- **Descripción:** Dataset con información de autos usados y “limpios” en venta en EE.UU.  
+- **Atributos:** marca, modelo, año, color, precio, VIN, kilometraje, ubicación, estado del título, lote, condición.  
+- **Tamaño:** 2.499 vehículos (28 marcas, 12 atributos).  
+- **Etiquetas:** Automóviles, vehículos usados.  
+- **Archivo:** `datasets/USA_cars_datasets.csv` (~284 KB).  
+- **Fuente:** Kaggle (Doaa Alsenani, 2020).  
+
+---
+
+### 2. DummyJSON — API de Productos
+- **Descripción:** API pública que provee datos ficticios en formato JSON para pruebas.  
+- **Ejemplo de endpoint:** [`https://dummyjson.com/products`](https://dummyjson.com/products)  
+- **Atributos:** id, título, descripción, precio, descuento, rating, stock, marca, categoría, imágenes.  
+- **Etiquetas:** API REST, comercio electrónico, datos ficticios.  
+- **Fuente:** [DummyJSON](https://dummyjson.com).  
+
+---
+
+## 📂 Estructura del Repositorio
+
+```
+
+├── datasets/                    # Conjuntos de datos en formato CSV/JSON usados en notebooks  
+├── export/                      # Resultados exportados (datasets limpios, ejemplos procesados)  
+├── .gitignore                   # Archivos/carpetas ignorados por Git  
+├── Notebook_de_ejercicios.ipynb # Notebook con un ejercicio práctico y un desafio 
+├── Notebook_demo.ipynb          # Notebook principal con ejemplos guiados paso a paso  
+├── README.md                    # Documentación principal del proyecto  
+└── requirements.txt             # Dependencias de Python necesarias para ejecutar el proyecto  
+```
+
+---
