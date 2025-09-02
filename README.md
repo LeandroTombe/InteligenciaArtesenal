@@ -1,5 +1,4 @@
-````markdown
-# 🔬 Proyecto de Ciencias de Datos
+`# 🔬 Proyecto de Ciencias de Datos
 
 Este repositorio contiene el trabajo práctico de **Ciencias de Datos**, cuyo objetivo es aplicar técnicas de **carga, limpieza, análisis y visualización de datos** utilizando **Python** y **Jupyter Notebooks**.
 
@@ -7,9 +6,9 @@ Este repositorio contiene el trabajo práctico de **Ciencias de Datos**, cuyo ob
 
 ## 📋 Requisitos previos
 
-- **Python 3.9+** instalado (se recomienda 3.11 para mayor compatibilidad).
-- `pip` actualizado.
-- Git instalado para clonar y gestionar el repositorio.
+- Python 3.9+ (se recomienda 3.11 para mayor compatibilidad)
+- `pip` actualizado
+- Git instalado para clonar y gestionar el repositorio
 
 ---
 
@@ -19,18 +18,17 @@ Para mantener las dependencias ordenadas, se recomienda crear y activar un entor
 
 ### 🪟 Windows (PowerShell)
 
-```powershell
+````powershell
 python -m venv venv
 .\venv\Scripts\Activate.ps1
-```
-````
+
 
 ### 🪟 Windows (CMD)
 
 ```cmd
 python -m venv venv
 .\venv\Scripts\activate.bat
-```
+````
 
 ### 🐧 Linux / 🍏 macOS
 
