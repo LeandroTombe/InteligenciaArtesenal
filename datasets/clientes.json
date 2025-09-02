@@ -1,0 +1,38 @@
+[
+  {
+    "Customer Name": "John Doe ",
+    "Income": "$50,000",
+    "Signup Date": "12/05/2022",
+    "Gender": "M"
+  },
+  {
+    "Customer Name": "  JANE DOE",
+    "Income": "N/A",
+    "Signup Date": "2021-07-30",
+    "Gender": "Female"
+  },
+  {
+    "Customer Name": "Alice smith",
+    "Income": "$2,500",
+    "Signup Date": "15/07/2020",
+    "Gender": "female"
+  },
+  {
+    "Customer Name": "Mário   Santos",
+    "Income": "10000",
+    "Signup Date": "15/07/2023",
+    "Gender": "F"
+  },
+  {
+    "Customer Name": "",
+    "Income": "?",
+    "Signup Date": "N/A",
+    "Gender": "?"
+  },
+  {
+    "Customer Name": "NULL",
+    "Income": "NULL",
+    "Signup Date": "NULL",
+    "Gender": "NULL"
+  }
+]
