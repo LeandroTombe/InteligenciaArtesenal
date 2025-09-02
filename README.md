@@ -22,14 +22,6 @@ Para mantener las dependencias ordenadas, se recomienda crear y activar un entor
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 
-
-### 🪟 Windows (CMD)
-
-```cmd
-python -m venv venv
-.\venv\Scripts\activate.bat
-````
-
 ### 🐧 Linux / 🍏 macOS
 
 ```bash
@@ -113,3 +105,4 @@ Al ejecutar este comando se abrirá el navegador y podrás trabajar con los note
 ```
 
 ---
+````
