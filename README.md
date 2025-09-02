@@ -117,3 +117,12 @@ Esto abrirá una ventana en tu navegador donde podrás crear y editar notebooks
 ```
 
 ---
+
+## Créditos
+
+- **Equipo: InteligenciaArtesanal**
+- **Referencias de libros:**
+  - Joel Grus – *[Data Science from Scratch](https://www.oreilly.com/library/view/data-science-from/9781492041122/)* (Capitulo 6: Data Loading, Storage, and File Formats)
+- **Librerías usadas:**
+  - [NumPy](https://numpy.org/)
+  - [Pandas](https://pandas.pydata.org/)
