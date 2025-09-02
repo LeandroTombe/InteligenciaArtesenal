@@ -1,4 +1,4 @@
-`# 🔬 Proyecto de Ciencias de Datos
+# 🔬 Proyecto de Ciencias de Datos
 
 Este repositorio contiene el trabajo práctico de **Ciencias de Datos**, cuyo objetivo es aplicar técnicas de **carga, limpieza, análisis y visualización de datos** utilizando **Python** y **Jupyter Notebooks**.
 
@@ -43,15 +43,11 @@ source venv/bin/activate
 
 ### 🔽 Instalar dependencias
 
-Con el entorno virtual activado:
-
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 📤 Exportar dependencias
-
-Si instalás o actualizás paquetes:
 
 ```bash
 pip freeze > requirements.txt
@@ -59,13 +55,11 @@ pip freeze > requirements.txt
 
 ### 🔄 Actualizar dependencias
 
-Para reinstalar todo desde `requirements.txt`:
-
 ```bash
 pip install --upgrade -r requirements.txt
 ```
 
-### ⛔ Desactivar el entorno virtual
+### ⛔ Desactivar entorno virtual
 
 ```bash
 deactivate
@@ -75,35 +69,34 @@ deactivate
 
 ## 📊 Conjunto de Datos
 
-### **US Cars Dataset**
+### US Cars Dataset
 
-- **Descripción:** Información de autos usados y "limpios" (sin daños) en venta en EE.UU.
-- **Registros:** 2.499 vehículos.
-- **Columnas:** 12 atributos (marca, modelo, año, color, precio, VIN, kilometraje, ubicación, estado del título, lote, condición, etc.).
-- **Etiquetas:** Automóviles y vehículos.
-- **Fuente:** Kaggle.
-- **Tamaño:** \~284 KB (CSV).
-- **Fecha publicación:** 2020.
-- **Autor:** Doaa Alsenani.
-- **Licencia:** No especificada.
+```text
+Descripción: Información de autos usados y "limpios" (sin daños) en venta en EE.UU.
+Registros: 2.499 vehículos
+Columnas: 12 atributos (marca, modelo, año, color, precio, VIN, kilometraje, ubicación, estado del título, lote, condición, etc.)
+Fuente: Kaggle
+Tamaño: ~284 KB (CSV)
+Fecha publicación: 2020
+Autor: Doaa Alsenani
+Licencia: No especificada
+```
 
-**Archivo incluido:**
+📂 Archivo incluido:
 
-- `datasets/USA_cars_datasets.csv`
+```text
+datasets/USA_cars_datasets.csv
+```
 
 ---
 
 ## 🚀 Ejecutar Jupyter Notebook
 
-1. Activar el entorno virtual.
-2. Instalar dependencias (`pip install -r requirements.txt`).
-3. Iniciar Jupyter:
+```bash
+jupyter notebook
+```
 
-   ```bash
-   jupyter notebook
-   ```
-
-4. Se abrirá el navegador y podrás trabajar con los notebooks.
+Al ejecutar este comando se abrirá el navegador y podrás trabajar con los notebooks.
 
 ---
 
