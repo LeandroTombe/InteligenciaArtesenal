@@ -1,88 +1,124 @@
+````markdown
 # 🔬 Proyecto de Ciencias de Datos
 
-Este proyecto utiliza un entorno virtual de Python para gestionar las dependencias.
+Este repositorio contiene el trabajo práctico de **Ciencias de Datos**, con el objetivo de aplicar técnicas de carga, limpieza, análisis y visualización de datos utilizando **Python** y **Jupyter Notebooks**.
+
+---
 
 ## 📋 Requisitos previos
-- Python 3.x instalado
 
-## ⚙️ Crear y activar el entorno virtual
+- **Python 3.9+** instalado (se recomienda usar 3.11 para mejor compatibilidad).
+- `pip` actualizado.
+- Git instalado para clonar y gestionar el repositorio.
+
+---
+
+## ⚙️ Entorno Virtual
+
+Para mantener las dependencias ordenadas, se recomienda crear y activar un entorno virtual.
 
 ### 🪟 Windows (PowerShell)
+
 ```powershell
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 ```
+````
 
 ### 🪟 Windows (CMD)
+
 ```cmd
 python -m venv venv
 .\venv\Scripts\activate.bat
 ```
 
-### 🐧 Linux/MacO
+### 🐧 Linux / 🍏 macOS
+
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-## 📦 Instalar dependencias
+---
 
-Una vez activado el entorno virtual, instala las dependencias necesarias (si tienes un archivo `requirements.txt`):
+## 📦 Dependencias
 
-```powershell
+### 🔽 Instalar dependencias
+
+Con el entorno virtual activado:
+
+```bash
 pip install -r requirements.txt
 ```
 
-## 🔁 Exportar dependencias a requirements.txt
+### 📤 Exportar dependencias
 
-Si agregas o actualizas paquetes en tu entorno virtual, puedes exportar todas las dependencias instaladas a un archivo `requirements.txt` con el siguiente comando:
+Si instalás o actualizás paquetes:
 
-```powershell
+```bash
 pip freeze > requirements.txt
 ```
 
-Esto actualizará el archivo `requirements.txt` con todas las dependencias actuales del entorno virtual.
+### 🔄 Actualizar dependencias
 
-## ⬆️ Actualizar dependencias
+Para reinstalar todo desde `requirements.txt`:
 
-Para instalar o actualizar todas las dependencias listadas en `requirements.txt` ejecuta:
-
-```powershell
+```bash
 pip install --upgrade -r requirements.txt
 ```
 
-## ⛔ Desactivar el entorno virtual
+### ⛔ Desactivar el entorno virtual
 
-```powershell
+```bash
 deactivate
 ```
 
-## � Conjunto de Datos
+---
 
-### US Cars Dataset
+## 📊 Conjunto de Datos
 
-**Descripción:** El conjunto de datos incluye información de autos usados y "limpios" (sin daños) a la venta en Estados Unidos. Según las referencias, abarca datos de 28 marcas diferentes y contiene 12 atributos por vehículo. Entre las características se incluyen la marca, modelo, año, color, precio de venta, número de identificación vehicular (VIN), kilometraje, ubicación (estado y ciudad), estado del título, número de lote y condición del vehículo. En total el dataset registra 2.499 vehículos en venta.
+### **US Cars Dataset**
 
-**Etiquetas (tags):** Automóviles y vehículos. 
-
-**Licencia:** No se especifica una licencia estándar.
-
-**Fecha de publicación y última actualización:** El dataset fue publicado en 2020. 
-
-**Autor/equipo:** Doaa Alsenani.
-
+- **Descripción:** Incluye información de autos usados y "limpios" (sin daños) en venta en EE.UU.
+- **Registros:** 2.499 vehículos.
+- **Columnas:** 12 atributos (marca, modelo, año, color, precio, VIN, kilometraje, ubicación, estado del título, lote, condición, etc.).
+- **Etiquetas:** Automóviles y vehículos.
+- **Fuente:** Kaggle.
+- **Tamaño:** \~284 KB (CSV).
+- **Fecha publicación:** 2020.
+- **Autor:** Doaa Alsenani.
+- **Licencia:** No especificada.
 
 **Archivos incluidos:**
-- `USA_cars_datasets.csv` — Formato CSV (tamaño aproximado: 284 KB según la página de Kaggle).
 
-**Fuentes:** Información obtenida de referencias relacionadas con el dataset de Kaggle, que describen su contenido, atributos y metadatos.
+- `USA_cars_datasets.csv` — archivo en formato CSV.
 
-## �🚀 Ejecutar Jupyter Notebook
+---
 
-Para iniciar Jupyter Notebook y trabajar con tus notebooks, asegúrate de tener el entorno virtual activado y ejecuta:
+## 🚀 Ejecutar Jupyter Notebook
 
-```powershell
-jupyter notebook
+1. Activar el entorno virtual.
+2. Instalar dependencias (`pip install -r requirements.txt`).
+3. Iniciar Jupyter:
+
+   ```bash
+   jupyter notebook
+   ```
+
+4. Se abrirá el navegador y podrás trabajar con los notebooks.
+
+---
+
+## 📚 Estructura del Repositorio
+
+```
+.
+├── datasets/
+│   └── USA_cars_datasets.csv    # Dataset principal
+├── notebooks/
+│   └── analisis_inicial.ipynb   # Ejemplo de notebook
+├── requirements.txt             # Dependencias del proyecto
+└── README.md                    # Documentación
 ```
 
-Esto abrirá una ventana en tu navegador donde podrás crear y editar notebooks
+---
